@@ -60,7 +60,7 @@ public class NTriplesOutput implements Output {
 		}
 		if(outputStream!=null) {
 			outputStream.flush();
-			writer.close();
+			outputStream.close();
 		}
 	}
 
